@@ -82,7 +82,7 @@ window = tk.Tk()
 
 window.geometry(WINDOW_SIZE)
 window.resizable(height=False, width=False)
-window.title("WaterMarking App")
+window.title("WaterMarkApp")
 
 user_image = Image.open(PREVIEW_PHOTO_PATH)
 user_image_preview = ImageTk.PhotoImage(Image.open(PREVIEW_PHOTO_PATH))
